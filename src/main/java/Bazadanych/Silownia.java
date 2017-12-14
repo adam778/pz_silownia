@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @Entity
 @Setter
 @Getter
-@Builder
+//@Builder
 
 public class Silownia {
     @Id

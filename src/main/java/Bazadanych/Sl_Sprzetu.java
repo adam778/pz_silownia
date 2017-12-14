@@ -12,19 +12,19 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @Setter
-@Builder
+//@Builder
 
-public class Slownik_Sprzetu {
+public class Sl_Sprzetu {
 @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int _id;
 
     private String nazwasprzetu;
 
-    Slownik_Sprzetu(String nazwasprzetu){
+    Sl_Sprzetu(String nazwasprzetu){
         this.nazwasprzetu = nazwasprzetu;
     }
 
-    protected Slownik_Sprzetu(){};
+    protected Sl_Sprzetu(){};
 
 }

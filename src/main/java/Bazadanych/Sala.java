@@ -12,7 +12,7 @@ import javax.persistence.GenerationType;
 @Entity
 @Getter
 @Setter
-@Builder
+//@Builder
 
 public class Sala {
    @Id

@@ -11,7 +11,7 @@ import javax.persistence.GenerationType;
 @Entity
 @Getter
 @Setter
-@Builder
+//@Builder
 public class Sprzet_Sala {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int _id;
